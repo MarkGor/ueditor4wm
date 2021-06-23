@@ -1,0 +1,26 @@
+{
+    "name": "markgor/ueditor4wm",
+    "description": "根据ueditor修改供webman使用",
+    "type": "library",
+    "require": {
+        "workerman/webman": "1",
+        "ext-curl": "*",
+        "php": "^7.0|^8.0"
+    },
+    "require-dev": {
+        "workerman/webman": "^1.0",
+        "ext-curl": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Markgor\\Ueditor4wm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mark",
+            "email": "138260370@qq.com"
+        }
+    ]
+}
